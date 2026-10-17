@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURA™ — Creative Studio & Digital Design Agency</title>
+  <meta name="description" content="AURA is an award-winning creative studio crafting digital experiences, brand identities, and immersive web products.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+  <!-- Custom Cursor Glow / Follower -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="marquee-track">
+      <span>✦ ACCEPTING SELECT PROJECTS FOR Q2 / Q3 2026</span>
+      <span>✦ RECOGNIZED BY AWWWARDS & FWA</span>
+      <span>✦ DIGITAL ARCHITECTURE & BESPOKE BRAND IDENTITY</span>
+      <span>✦ ACCEPTING SELECT PROJECTS FOR Q2 / Q3 2026</span>
+      <span>✦ RECOGNIZED BY AWWWARDS & FWA</span>
+      <span>✦ DIGITAL ARCHITECTURE & BESPOKE BRAND IDENTITY</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-mark">▲</span>
+        <span class="logo-text">AURA<span class="dot">.</span></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">Studio</a>
+        <a href="#work" class="nav-link">Selected Work</a>
+        <a href="#services" class="nav-link">Capabilities</a>
+        <a href="#awards" class="nav-link">Accolades</a>
+        <a href="#contact" class="nav-link btn-nav-contact">Start a Project</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="icon-sun">☼</span>
+          <span class="icon-moon">☽</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-mesh"></div>
+      <div class="container hero-content">
+        <div class="hero-badge reveal">
+          <span class="badge-dot"></span>
+          <span>Bespoke Creative Direction & Experience Engineering</span>
+        </div>
+        <h1 class="hero-title reveal">
+          We shape digital worlds for <span class="text-gradient">bold brands</span> with undeniable presence.
+        </h1>
+        <p class="hero-subtitle reveal">
+          An independent design & innovation practice partnering with visionaries, industry disruptors, and high-growth ventures to create iconic digital flagships.
+        </p>
+
+        <div class="hero-cta-group reveal">
+          <a href="#work" class="btn btn-primary">
+            <span>Explore Works</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>Book Consultation</span>
+          </a>
+        </div>
+
+        <!-- Metrics Strip -->
+        <div class="hero-metrics reveal">
+          <div class="metric-card">
+            <span class="metric-number" data-target="98">0</span><span class="metric-symbol">%</span>
+            <span class="metric-label">Client Retention & Referrals</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-number" data-target="34">0</span><span class="metric-symbol">+</span>
+            <span class="metric-label">Design & Dev Honors</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-number" data-target="180">0</span><span class="metric-symbol">M$</span>
+            <span class="metric-label">Client Value Unlocked</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-number" data-target="12">0</span><span class="metric-symbol">yrs</span>
+            <span class="metric-label">Crafting Excellence</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Studio Philosophy / Intro -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">/ 01 — Philosophy</span>
+          <h2 class="section-title">Rooted in design precision, fueled by bleeding-edge craft.</h2>
+        </div>
+
+        <div class="philosophy-grid">
+          <div class="philosophy-card reveal">
+            <div class="card-num">01</div>
+            <h3>Radical Clarity</h3>
+            <p>We eliminate visual clutter to elevate the essence of your narrative. Clean layouts, deliberate typographic scales, and purposeful white space.</p>
+          </div>
+          <div class="philosophy-card reveal">
+            <div class="card-num">02</div>
+            <h3>Kinetic Interaction</h3>
+            <p>Micro-interactions that respond to human touch, scroll-triggered choreographies, and fluid motion systems that make interfaces feel alive.</p>
+          </div>
+          <div class="philosophy-card reveal">
+            <div class="card-num">03</div>
+            <h3>Future-Proof Tech</h3>
+            <p>High-performance code, ultra-fast asset delivery, dynamic responsiveness across every device tier, and modern web standards compliance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Works / Portfolio Filterable Gallery -->
+    <section class="section work-section" id="work">
+      <div class="container">
+        <div class="work-header-row">
+          <div class="section-header reveal">
+            <span class="section-tag">/ 02 — Portfolio</span>
+            <h2 class="section-title">Selected Works</h2>
+          </div>
+
+          <!-- Filter Pills -->
+          <div class="filter-pills reveal" id="portfolioFilter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="brand">Branding</button>
+            <button class="filter-btn" data-filter="digital">Digital Product</button>
+            <button class="filter-btn" data-filter="web">Web Experience</button>
+          </div>
+        </div>
+
+        <div class="portfolio-grid" id="portfolioGrid">
+          <!-- Item 1 -->
+          <article class="project-card reveal" data-category="web">
+            <div class="project-media">
+              <div class="media-canvas canvas-monolith">
+                <div class="abstract-shape shape-cube"></div>
+                <div class="media-glint"></div>
+              </div>
+              <span class="project-badge">Awwwards SOTD</span>
+            </div>
+            <div class="project-details">
+              <div class="project-meta">
+                <span class="project-cat">Web Experience / 3D Motion</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">Monolith Sound Architecture</h3>
+              <p class="project-desc">Interactive spatial audio system & flagship retail web portal designed for next-gen audiophile acoustics.</p>
+              <div class="project-tags">
+                <span>WebGL</span>
+                <span>Spatial UI</span>
+                <span>Design System</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 2 -->
+          <article class="project-card reveal" data-category="brand">
+            <div class="project-media">
+              <div class="media-canvas canvas-lumina">
+                <div class="abstract-shape shape-orb"></div>
+                <div class="media-glint"></div>
+              </div>
+              <span class="project-badge">Brand Identity</span>
+            </div>
+            <div class="project-details">
+              <div class="project-meta">
+                <span class="project-cat">Branding / Strategy</span>
+                <span class="project-year">2025</span>
+              </div>
+              <h3 class="project-title">Lumina Autonomous Mobility</h3>
+              <p class="project-desc">Full brand identity revamp, sensory typography, vehicle HUD design, and marketing launch system.</p>
+              <div class="project-tags">
+                <span>Identity</span>
+                <span>Typography</span>
+                <span>Guidelines</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 3 -->
+          <article class="project-card reveal" data-category="digital">
+            <div class="project-media">
+              <div class="media-canvas canvas-synapse">
+                <div class="abstract-shape shape-matrix"></div>
+                <div class="media-glint"></div>
+              </div>
+              <span class="project-badge">FWA of the Day</span>
+            </div>
+            <div class="project-details">
+              <div class="project-meta">
+                <span class="project-cat">Digital Product / SaaS</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">Synapse AI Neural Canvas</h3>
+              <p class="project-desc">Enterprise-grade generative design workspace with low-latency node graph editor and custom component library.</p>
+              <div class="project-tags">
+                <span>Design System</span>
+                <span>SaaS App</span>
+                <span>UX Architecture</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 4 -->
+          <article class="project-card reveal" data-category="web">
+            <div class="project-media">
+              <div class="media-canvas canvas-verve">
+                <div class="abstract-shape shape-torus"></div>
+                <div class="media-glint"></div>
+              </div>
+              <span class="project-badge">E-Commerce Flagship</span>
+            </div>
+            <div class="project-details">
+              <div class="project-meta">
+                <span class="project-cat">Web Experience / Luxury</span>
+                <span class="project-year">2025</span>
+              </div>
+              <h3 class="project-title">Verve Haute Horlogerie</h3>
+              <p class="project-desc">Micro-animated chronometer configurator delivering 120fps fluid transitions and high-touch checkout storytelling.</p>
+              <div class="project-tags">
+                <span>Headless Commerce</span>
+                <span>Custom Animation</span>
+                <span>Creative Dev</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / Capabilities Accordion & Interactive Tabs -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">/ 03 — Capabilities</span>
+          <h2 class="section-title">End-to-end expertise engineered for lasting distinction.</h2>
+        </div>
+
+        <div class="services-wrapper">
+          <div class="service-row reveal" data-service="1">
+            <div class="service-left">
+              <span class="service-idx">01</span>
+              <h3 class="service-name">Brand Systems & Visual Direction</h3>
+            </div>
+            <p class="service-summary">Logomarks, design systems, editorial art direction, sonic signatures, and comprehensive brand books.</p>
+            <div class="service-expand-btn">+</div>
+            <div class="service-expanded-content">
+              <ul>
+                <li>Brand Strategy & Positioning</li>
+                <li>Design Systems & Guidelines</li>
+                <li>Bespoke Typographic Design</li>
+                <li>3D Art Direction & Key Visuals</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="service-row reveal" data-service="2">
+            <div class="service-left">
+              <span class="service-idx">02</span>
+              <h3 class="service-name">Digital Products & User Experience</h3>
+            </div>
+            <p class="service-summary">Intuitive mobile & web applications, SaaS dashboards, complex workflows simplified through human ergonomics.</p>
+            <div class="service-expand-btn">+</div>
+            <div class="service-expanded-content">
+              <ul>
+                <li>End-to-End UX/UI Architecture</li>
+                <li>Interactive Prototyping & User Testing</li>
+                <li>Component Libraries & Tokenized Systems</li>
+                <li>Micro-Copy & Product Narrative</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="service-row reveal" data-service="3">
+            <div class="service-left">
+              <span class="service-idx">03</span>
+              <h3 class="service-name">Creative Engineering & WebGL</h3>
+            </div>
+            <p class="service-summary">Ultra-responsive web builds, shader animations, silky smooth page transitions, and headless CMS integrations.</p>
+            <div class="service-expand-btn">+</div>
+            <div class="service-expanded-content">
+              <ul>
+                <li>Modern Front-End Engineering</li>
+                <li>Interactive 3D & Canvas Rendering</li>
+                <li>Performance & SEO Optimization</li>
+                <li>Headless CMS Architecture</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Testimonials & Accolades -->
+    <section class="section accolades-section" id="awards">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">/ 04 — Endorsements</span>
+          <h2 class="section-title">What industry leaders say</h2>
+        </div>
+
+        <div class="testimonials-slider reveal" id="testimonialSlider">
+          <div class="testimonial-card active">
+            <div class="quote-symbol">“</div>
+            <p class="quote-text">
+              AURA transformed our entire market posture. Our product launch saw a 340% increase in inbound qualified demos in week one alone. Their craftsmanship is peerless.
+            </p>
+            <div class="quote-author">
+              <div class="author-avatar avatar-1"></div>
+              <div>
+                <strong class="author-name">Elena Rostova</strong>
+                <span class="author-role">Founder & CEO, Synapse AI</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-symbol">“</div>
+            <p class="quote-text">
+              They don't just produce pretty mockups; they construct cohesive digital universes. The attention to interactive micro-detail kept our board mesmerized.
+            </p>
+            <div class="quote-author">
+              <div class="author-avatar avatar-2"></div>
+              <div>
+                <strong class="author-name">Marcus Vance</strong>
+                <span class="author-role">Chief Product Officer, Monolith Audio</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-symbol">“</div>
+            <p class="quote-text">
+              Working with AURA felt like partnering with an internal dream team. Fast, radically communicative, and obsessive about world-class execution.
+            </p>
+            <div class="quote-author">
+              <div class="author-avatar avatar-3"></div>
+              <div>
+                <strong class="author-name">Chantal Moreau</strong>
+                <span class="author-role">Creative Director, Verve Horlogerie</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <div class="slider-controls">
+            <button class="slider-btn prev-btn" id="prevTestimonial" aria-label="Previous testimonial">←</button>
+            <div class="slider-dots" id="sliderDots">
+              <span class="dot-indicator active" data-index="0"></span>
+              <span class="dot-indicator" data-index="1"></span>
+              <span class="dot-indicator" data-index="2"></span>
+            </div>
+            <button class="slider-btn next-btn" id="nextTestimonial" aria-label="Next testimonial">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Contact Form & Inquiries -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <span class="section-tag">/ 05 — Get In Touch</span>
+            <h2 class="contact-headline">Let's craft something unforgettable together.</h2>
+            <p class="contact-sub">Have a project in mind, an ambitious product vision, or want to discuss creative direction? We'd love to hear from you.</p>
+
+            <div class="contact-details">
+              <div class="detail-item">
+                <span class="detail-label">Direct Inquiries</span>
+                <a href="mailto:hello@aurastudio.design" class="detail-value">hello@aurastudio.design</a>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Studio Location</span>
+                <span class="detail-value">New York • London • Tokyo</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Response Time</span>
+                <span class="detail-value">Within 24 business hours</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container reveal">
+            <form class="contact-form" id="projectForm" novalidate>
+              <div class="form-group">
+                <label for="clientName">Your Name / Organization <span class="required">*</span></label>
+                <input type="text" id="clientName" name="name" placeholder="e.g. Sarah Connor" required>
+                <span class="error-msg" id="nameError">Please enter your name</span>
+              </div>
+
+              <div class="form-group">
+                <label for="clientEmail">Email Address <span class="required">*</span></label>
+                <input type="email" id="clientEmail" name="email" placeholder="sarah@domain.com" required>
+                <span class="error-msg" id="emailError">Please enter a valid email address</span>
+              </div>
+
+              <div class="form-group">
+                <label>Project Scope / Interests</label>
+                <div class="chip-selection" id="serviceChips">
+                  <button type="button" class="chip" data-val="Brand Identity">Brand Identity</button>
+                  <button type="button" class="chip active" data-val="Web Experience">Web Experience</button>
+                  <button type="button" class="chip" data-val="Product Design">Product Design</button>
+                  <button type="button" class="chip" data-val="Creative Dev">Creative Dev</button>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="budgetRange">Estimated Investment Range: <span id="budgetValue">$25k - $50k</span></label>
+                <input type="range" id="budgetRange" min="1" max="4" value="2" step="1" class="slider-input">
+                <div class="range-labels">
+                  <span>$10k-$25k</span>
+                  <span>$25k-$50k</span>
+                  <span>$50k-$100k</span>
+                  <span>$100k+</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="projectMessage">Tell us about your project <span class="required">*</span></label>
+                <textarea id="projectMessage" rows="4" placeholder="Timeline, goals, key deliverables..." required></textarea>
+                <span class="error-msg" id="messageError">Please provide a brief project overview</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                <span>Send Project Inquiry</span>
+                <span class="btn-spinner"></span>
+              </button>
+
+              <div class="form-feedback" id="formFeedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <span class="logo-mark">▲</span>
+            <span class="logo-text">AURA<span class="dot">.</span></span>
+          </div>
+          <p>Creative direction, digital architecture, and bespoke software experiences.</p>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4>Navigation</h4>
+          <a href="#about">Philosophy</a>
+          <a href="#work">Portfolio</a>
+          <a href="#services">Capabilities</a>
+          <a href="#awards">Endorsements</a>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4>Connect</h4>
+          <a href="#" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="#" target="_blank" rel="noreferrer">Twitter / X</a>
+          <a href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4>Timezone / Availability</h4>
+          <div class="status-indicator">
+            <span class="status-pulse"></span>
+            <span>Studio Live: NYC <span id="liveTime">00:00:00</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 AURA Studio Inc. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#hero" class="back-to-top">Back to top ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
